@@ -15,6 +15,14 @@
       "relationName": "ВходСотрудника.Сотрудник",
       "projection": "СотрудникL",
       "detailModelName": "i-i-s-probadevyat-вход-сотрудника"
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ВходГостя.Гость",
+      "projection": "ГостьL",
+      "detailModelName": null
     }
   ],
   "external": false,

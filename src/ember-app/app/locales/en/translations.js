@@ -104,38 +104,6 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
-        probadevyat: {
-          caption: 'Probadevyat',
-          title: 'Probadevyat',
-          'i-i-s-probadevyat-регистр-гостя-l': {
-            caption: 'Регистр гостя',
-            title: ''
-          },
-          'i-i-s-probadevyat-регистрац-входа-l': {
-            caption: 'Регистрац входа',
-            title: ''
-          },
-          'i-i-s-probadevyat-комната-l': {
-            caption: 'Комната',
-            title: ''
-          },
-          'i-i-s-probadevyat-сотрудник-l': {
-            caption: 'Сотрудник',
-            title: ''
-          },
-          'i-i-s-probadevyat-карта-l': {
-            caption: 'Карта',
-            title: ''
-          },
-          'i-i-s-probadevyat-гость-l': {
-            caption: 'Гость',
-            title: ''
-          },
-          'i-i-s-probadevyat-должности-l': {
-            caption: 'Должности',
-            title: ''
-          }
-        },
         отель: {
           caption: 'Отель',
           title: 'Отель',
@@ -170,6 +138,38 @@ $.extend(true, translations, {
               caption: 'Регистрация гостя',
               title: 'Регистр гостя'
             }
+          }
+        },
+        probadevyat: {
+          caption: 'Probadevyat',
+          title: 'Probadevyat',
+          'i-i-s-probadevyat-регистр-гостя-l': {
+            caption: 'Регистр гостя',
+            title: ''
+          },
+          'i-i-s-probadevyat-регистрац-входа-l': {
+            caption: 'Регистрац входа',
+            title: ''
+          },
+          'i-i-s-probadevyat-комната-l': {
+            caption: 'Комната',
+            title: ''
+          },
+          'i-i-s-probadevyat-сотрудник-l': {
+            caption: 'Сотрудник',
+            title: ''
+          },
+          'i-i-s-probadevyat-карта-l': {
+            caption: 'Карта',
+            title: ''
+          },
+          'i-i-s-probadevyat-гость-l': {
+            caption: 'Гость',
+            title: ''
+          },
+          'i-i-s-probadevyat-должности-l': {
+            caption: 'Должности',
+            title: ''
           }
         }
       }

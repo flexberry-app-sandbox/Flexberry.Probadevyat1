@@ -4,63 +4,6 @@
   "items": [
     {
       "link": null,
-      "menuName": "probadevyat",
-      "caption": "Probadevyat",
-      "title": "Probadevyat",
-      "children": [
-        {
-          "link": "i-i-s-probadevyat-регистр-гостя-l",
-          "menuName": null,
-          "caption": "Регистр гостя",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-probadevyat-регистрац-входа-l",
-          "menuName": null,
-          "caption": "Регистрац входа",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-probadevyat-комната-l",
-          "menuName": null,
-          "caption": "Комната",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-probadevyat-сотрудник-l",
-          "menuName": null,
-          "caption": "Сотрудник",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-probadevyat-карта-l",
-          "menuName": null,
-          "caption": "Карта",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-probadevyat-гость-l",
-          "menuName": null,
-          "caption": "Гость",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-probadevyat-должности-l",
-          "menuName": null,
-          "caption": "Должности",
-          "title": "",
-          "children": null
-        }
-      ]
-    },
-    {
-      "link": null,
       "menuName": "отель",
       "caption": "Отель",
       "title": "Отель",

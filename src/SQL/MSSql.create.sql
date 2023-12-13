@@ -21,6 +21,8 @@ CREATE TABLE [ВходГостя] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Гость] UNIQUEIDENTIFIER  NOT NULL,
+
 	 [РегистрГостя] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [РегистрацВхода] UNIQUEIDENTIFIER  NOT NULL,

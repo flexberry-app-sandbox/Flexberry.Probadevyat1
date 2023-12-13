@@ -5,11 +5,19 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
+  гость: DS.belongsTo('i-i-s-probadevyat-гость', { inverse: null, async: false }),
   регистрГостя: DS.belongsTo('i-i-s-probadevyat-регистр-гостя', { inverse: null, async: false }),
   регистрацВхода: DS.belongsTo('i-i-s-probadevyat-регистрац-входа', { inverse: 'входГостя', async: false })
 });
 
 export let ValidationRules = {
+  гость: {
+    descriptionKey: 'models.i-i-s-probadevyat-вход-гостя.validations.гость.__caption__',
+    validators: [
+      validator('ds-error'),
+      validator('presence', true),
+    ],
+  },
   регистрГостя: {
     descriptionKey: 'models.i-i-s-probadevyat-вход-гостя.validations.регистрГостя.__caption__',
     validators: [

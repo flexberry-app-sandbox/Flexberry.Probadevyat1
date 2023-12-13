@@ -10,6 +10,13 @@
     {
       "polymorphic": false,
       "presence": true,
+      "name": "гость",
+      "relatedTo": "i-i-s-probadevyat-гость",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
       "name": "регистрГостя",
       "relatedTo": "i-i-s-probadevyat-регистр-гостя",
       "inverse": null

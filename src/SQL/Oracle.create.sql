@@ -26,6 +26,8 @@ CREATE TABLE "ВходГостя"
 
 	"РегистрГостя" RAW(16) NOT NULL,
 
+	"Гость" RAW(16) NOT NULL,
+
 	"РегистрацВхода" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
@@ -352,6 +354,11 @@ ALTER TABLE "ВходГостя"
 	ADD CONSTRAINT "ВходГостя_FРе_3274" FOREIGN KEY ("РегистрГостя") REFERENCES "РегистрГостя" ("primaryKey");
 
 CREATE INDEX "ВходГостя_IРе_9109" on "ВходГостя" ("РегистрГостя");
+
+ALTER TABLE "ВходГостя"
+	ADD CONSTRAINT "ВходГостя_FГо_5089" FOREIGN KEY ("Гость") REFERENCES "Гость" ("primaryKey");
+
+CREATE INDEX "ВходГостя_IГость" on "ВходГостя" ("Гость");
 
 ALTER TABLE "ВходГостя"
 	ADD CONSTRAINT "ВходГостя_FРе_4667" FOREIGN KEY ("РегистрацВхода") REFERENCES "РегистрацВхода" ("primaryKey");

@@ -30,13 +30,18 @@ namespace IIS.Probadevyat
     [Caption("Вход гостя")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ВходГостяE", new string[] {
+            "Гость as \'Гость\'",
+            "Гость.ФИО",
             "РегистрГостя.Гость as \'Гость\'",
             "РегистрГостя.Гость.ФИО as \'ФИО\'",
             "РегистрГостя.Карта.КодКарты as \'Номер карты\'"})]
+    [MasterViewDefineAttribute("ВходГостяE", "Гость", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     public class ВходГостя : ICSSoft.STORMNET.DataObject
     {
         
         private IIS.Probadevyat.РегистрГостя fРегистрГостя;
+        
+        private IIS.Probadevyat.Гость fГость;
         
         private IIS.Probadevyat.РегистрацВхода fРегистрацВхода;
         
@@ -44,6 +49,40 @@ namespace IIS.Probadevyat
 
         // *** End programmer edit section *** (ВходГостя CustomMembers)
 
+        
+        /// <summary>
+        /// Вход гостя.
+        /// </summary>
+        // *** Start programmer edit section *** (ВходГостя.Гость CustomAttributes)
+
+        // *** End programmer edit section *** (ВходГостя.Гость CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Гость"})]
+        [NotNull()]
+        public virtual IIS.Probadevyat.Гость Гость
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ВходГостя.Гость Get start)
+
+                // *** End programmer edit section *** (ВходГостя.Гость Get start)
+                IIS.Probadevyat.Гость result = this.fГость;
+                // *** Start programmer edit section *** (ВходГостя.Гость Get end)
+
+                // *** End programmer edit section *** (ВходГостя.Гость Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ВходГостя.Гость Set start)
+
+                // *** End programmer edit section *** (ВходГостя.Гость Set start)
+                this.fГость = value;
+                // *** Start programmer edit section *** (ВходГостя.Гость Set end)
+
+                // *** End programmer edit section *** (ВходГостя.Гость Set end)
+            }
+        }
         
         /// <summary>
         /// Вход гостя.

@@ -15,6 +15,7 @@ CREATE TABLE РегистрГостя (
 CREATE TABLE ВходГостя (
  primaryKey UUID NOT NULL,
  РегистрГостя UUID NOT NULL,
+ Гость UUID NOT NULL,
  РегистрацВхода UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -189,6 +190,9 @@ CREATE INDEX Indexa159d2c2590ce17dd2836a3a2674a97fcdcaa11e on РегистрГо
 
  ALTER TABLE ВходГостя ADD CONSTRAINT FKed960f29966d5e50c2bdf44c7aeac1bb7b9526d1 FOREIGN KEY (РегистрГостя) REFERENCES РегистрГостя; 
 CREATE INDEX Indexed960f29966d5e50c2bdf44c7aeac1bb7b9526d1 on ВходГостя (РегистрГостя); 
+
+ ALTER TABLE ВходГостя ADD CONSTRAINT FK6070fef8ad8faa486a6b274fcc1049b163754375 FOREIGN KEY (Гость) REFERENCES Гость; 
+CREATE INDEX Index6070fef8ad8faa486a6b274fcc1049b163754375 on ВходГостя (Гость); 
 
  ALTER TABLE ВходГостя ADD CONSTRAINT FK16da1a91aa860b8afd2c2a5fafaa33b09bf426ad FOREIGN KEY (РегистрацВхода) REFERENCES РегистрацВхода; 
 CREATE INDEX Index16da1a91aa860b8afd2c2a5fafaa33b09bf426ad on ВходГостя (РегистрацВхода); 
