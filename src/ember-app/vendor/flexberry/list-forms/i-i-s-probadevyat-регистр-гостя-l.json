@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probadevyat-регистр-гостя-e",
+  "editForm": "i-i-s-probadevyat-регистр-гостя-e",
+  "external": false,
+  "caption": "Регистр гостя",
+  "name": "IISProbadevyatРегистрГостяL",
+  "className": "РегистрГостяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probadevyat-регистр-гостя",
+      "modelProjection": "РегистрГостяL"
+    }
+  ]
+}

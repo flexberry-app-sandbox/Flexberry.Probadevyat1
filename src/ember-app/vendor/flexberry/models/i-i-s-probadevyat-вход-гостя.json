@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISProbadevyatВходГостя",
+  "modelName": "i-i-s-probadevyat-вход-гостя",
+  "className": "ВходГостя",
+  "nameSpace": "IIS.Probadevyat",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрГостя",
+      "relatedTo": "i-i-s-probadevyat-регистр-гостя",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрацВхода",
+      "relatedTo": "i-i-s-probadevyat-регистрац-входа",
+      "inverse": "входГостя"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВходГостяE",
+      "modelName": "i-i-s-probadevyat-вход-гостя",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

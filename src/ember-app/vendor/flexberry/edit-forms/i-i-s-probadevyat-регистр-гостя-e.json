@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гость",
+      "projection": "ГостьL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Карта",
+      "projection": "КартаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Регистр гостя",
+  "name": "IISProbadevyatРегистрГостяE",
+  "className": "РегистрГостяE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probadevyat-регистр-гостя",
+      "modelProjection": "РегистрГостяE"
+    }
+  ]
+}

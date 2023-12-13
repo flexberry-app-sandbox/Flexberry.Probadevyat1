@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probadevyat-гость-e",
+  "editForm": "i-i-s-probadevyat-гость-e",
+  "external": false,
+  "caption": "Гость",
+  "name": "IISProbadevyatГостьL",
+  "className": "ГостьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probadevyat-гость",
+      "modelProjection": "ГостьL"
+    }
+  ]
+}

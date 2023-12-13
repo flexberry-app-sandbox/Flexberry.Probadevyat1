@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probadevyat-комната-e",
+  "editForm": "i-i-s-probadevyat-комната-e",
+  "external": false,
+  "caption": "Комната",
+  "name": "IISProbadevyatКомнатаL",
+  "className": "КомнатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probadevyat-комната",
+      "modelProjection": "КомнатаL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Гость",
+  "name": "IISProbadevyatГостьE",
+  "className": "ГостьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probadevyat-гость",
+      "modelProjection": "ГостьE"
+    }
+  ]
+}
